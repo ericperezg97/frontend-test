@@ -1,0 +1,29 @@
+BlockchainSquad UI Challenge
+
+Introduction
+The objective of this challenge is to evaluate your knowledge of HTML5, CSS3, Vue.js, Git, Design Patterns, and best practices.
+
+Project Specification
+You will implement one screens following the designs provided on Figma (check your email for an invitation to the Figma project).
+
+Welcome page
+Create basic skeleton layout and try to get close to the Figma Design
+
+Setting Page
+We should be able to navigate to “Settings page” using the left-hand menu.
+
+Rules and Requirements
+
+You must use Vue.js.
+Your project must be versioned with Git.
+Your first commit should only have the “vue create” output.
+The styling must be custom made - no CSS libraries allowed.
+Usage of other CSS accents are allowed (e.g. SCSS).
+Vue.js components should be reusable and self-contained - use your judgment to decide when this rule could be best applied.
+Find the UI assets here.
+Writing automated tests and using TypeScript aren’t mandatory, but you’ll get bonus points for it.
+You must include a Readme with instructions on how to run, test, and use the application
+HTML must be well structured, accessible and have semantic
+CSS selectors and rules should be cheap and follow a class naming pattern
+Think about this project as a long term application. We want to see how well you can prepare your code to be safe, easily understood, and maintainable;
+Please spend no more than 2 hours on this assignment. You can spend more time if you'd like but we value your time. Feel free to share your submission once you have hit the 2-hour mark.
