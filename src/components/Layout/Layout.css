@@ -1,0 +1,7 @@
+.Layout{
+ height: 100vh;
+}
+.Layout-Bottom{
+ display: flex;
+ height: calc(100% - 63px);
+}
