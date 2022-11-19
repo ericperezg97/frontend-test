@@ -6,8 +6,8 @@ const Layout = () => {
   <div className='Layout'>
    <Header/>
    <div className='Layout-Bottom'>
-    <SideBar/>
-    <div style={{"backgroundColor": "#F2F8FE", "width":"100%"}}/>
+    <SideBar />
+     <Outlet/>
    </div>
   </div>
  )
