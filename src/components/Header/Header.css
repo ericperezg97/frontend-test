@@ -1,0 +1,59 @@
+.Header {
+ height: 63px;
+ padding: 0 15px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #FFFFFF;
+ border-bottom: 1px solid #EEF0F8;
+}
+.Header-Logo{
+ height: 26px;
+ width: 55px;
+ object-fit: contain;
+}
+.Header-Right{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.Header-Button{
+ margin-right: 25px;
+}
+.Header-Icons{
+ display: flex;
+ height: 21px;
+ justify-content: space-between;
+ align-items: center;
+ border-right: 1px solid #EEF0F8;
+ padding-right: 16px;
+}
+.Header-Wallet{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-right: 8px;
+}
+.Header-WalletIcon{
+ height: 15px;
+ width: 15px;
+ margin-right: 5px;
+ cursor: pointer;
+}
+.Header-WalletText{
+ font-size: 14px;
+ font-weight: 600;
+ color: #34363D;
+}
+.Header-NotificationsIcon{
+ height: 15px;
+ width: 15px;
+ margin-right: 5px;
+ cursor: pointer;
+}
+.Header-UserImage{
+ height: 32px;
+ width: 32px;
+ border-radius: 100%;
+ margin: 0 17px;
+}
