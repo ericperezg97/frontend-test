@@ -1,11 +1,11 @@
 import Icon from '../Icon'
 
 const SideBar = () => {
-  const selected = true
+  const selected = "/"
  return (
   <div className='SideBar'>
    <div className='SideBar-Top'>
-       <div className='SideBar-Item' style={{ "backgroundColor": `${selected ? "#EEF0F8" : "none"}`}}>
+       <div className={`SideBar-Item ${selected == "/" ? "SideBar-Item_selected":""}`} style={{ "backgroundColor": `${selected == "/" ? "#EEF0F8" : "none"}`}}>
      <Icon type="home" color={selected ? "#375EF8" :"#7D8092"} className='SideBar-ItemLogo'/>
     </div>
     <div className='SideBar-Item'>

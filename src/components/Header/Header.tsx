@@ -14,7 +14,7 @@ const Header = () => {
      </div>
       <Icon type="bell" color="#34363D" className='Header-NotificationsIcon'/>
     </div>
-    <img src='./images/header/User_Img.jpg' className='Header-UserImage'/>
+    <img src='./images/users/User1_Img.jpg' className='Header-UserImage'/>
    </div>
   </div>
  )

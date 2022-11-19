@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route element={<Layout />}>
         <Route path="/" element={<HomePage/>}/>
       </Route>
     </Routes>

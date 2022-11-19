@@ -1,5 +1,5 @@
 interface Props {
- type: "wallet" | "bell" | "categories" | "coupons" | "customers" | "home" | "network" | "settings" | "shop" | "info" | "link" | "arrow" | "card"
+ type: "wallet" | "bell" | "categories" | "coupons" | "customers" | "home" | "network" | "settings" | "shop" | "info" | "link" | "arrow" | "card" | "arrow-right"
  color: string
  className?: string
 }
@@ -110,7 +110,11 @@ const Icon = ({ type, color, className:externalClassName="" }: Props) => {
      <path d="M11.6667 0.833344V8.33334H19.1667C19.1667 4.19084 15.8092 0.833344 11.6667 0.833344Z" stroke={color} stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
      <path d="M8.33334 4.16669C4.19084 4.16669 0.833336 7.52419 0.833336 11.6667C0.833336 15.8092 4.19084 19.1667 8.33334 19.1667C12.4758 19.1667 15.8333 15.8092 15.8333 11.6667H8.33334V4.16669Z" stroke={color} stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
     </svg>
-    
+   }
+   {type === "arrow-right" &&
+   <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.66668 0.5L0.726685 1.44L3.78002 4.5L0.726685 7.56L1.66668 8.5L5.66668 4.5L1.66668 0.5Z" fill={color}/>
+   </svg>
    }
   </div>
  )

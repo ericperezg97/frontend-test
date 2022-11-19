@@ -45,4 +45,9 @@
 }
 .HomePage-Bottom{
  display: flex;
+ max-width: 1140px;
+ overflow-x: scroll;
+}
+.HomePage-InfoSection{
+ margin-right: 30px;
 }

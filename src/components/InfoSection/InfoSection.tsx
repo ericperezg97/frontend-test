@@ -1,7 +1,11 @@
 import GraphCard from "../Card/GraphCard"
 import InfoCard from "../Card/InfoCard"
 
-const InfoSection = () => {
+interface Props {
+ className: string
+}
+
+const InfoSection = ({className:externalClassName=""}:Props) => {
  const info = {
   cardInfo: [{
    earning: 40.1546,
@@ -15,7 +19,7 @@ const InfoSection = () => {
   }]
  }
  return (
-  <div className='InfoSection'>
+  <div className={`InfoSection ${externalClassName}`}>
    <div className='InfoSection-Left'>
     <GraphCard/>
    </div>

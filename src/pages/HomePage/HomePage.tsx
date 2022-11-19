@@ -1,6 +1,7 @@
 import Icon from '../../components/Icon'
 import TextInput from '../../components/TextInput'
 import InfoSection from '../../components/InfoSection'
+import ProfileCard from '../../components/Card/ProfileCard'
 
 const HomePage = () => {
  const userInfo = {
@@ -22,7 +23,8 @@ const HomePage = () => {
     </div>
    </div>
    <div className='HomePage-Bottom'>
-    <InfoSection/>
+    <InfoSection className='HomePage-InfoSection'/>
+    <ProfileCard/>
    </div> 
   </div>
  )

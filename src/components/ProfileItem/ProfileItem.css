@@ -1,0 +1,72 @@
+.ProfileItem{
+ display: flex;
+ justify-content: space-between;
+ padding: 5px 10px;
+ border: 1px solid #e8e8e8;
+ border-radius: 4px;
+ width: 100%;
+ cursor: pointer;
+ transition-duration: 0.2s;
+}
+.ProfileItem:hover{
+ transform: scale(1.02)
+}
+.ProfileItem-Left{
+display: flex;
+}
+.ProfileItem-Image{
+ height: 40px;
+ width: 40px;
+ border-radius: 100%;
+ margin-right: 5px;
+}
+.ProfileItem-Info{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.ProfileItem-ProfileName{
+ font-size: 14px;
+ font-weight: 600;
+ color: black;
+ margin-bottom: 2px;
+}
+.ProfileItem-BottomInfoContainer{
+ display: flex;
+}
+.ProfileItem-ProfileProducts{
+ font-size: 9px;
+ font-weight: 400;
+ color: #7D8092;
+ margin-right: 5px;
+}
+.ProfileItem-ProfileHandler{
+ font-size: 9px;
+ font-weight: 400;
+ color: #34363D;
+}
+.ProfileItem-Right{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.ProfileItem-RightTop{
+ margin-right: 8px;
+}
+.ProfileItem-GeneratedAmount{
+ font-size: 9px;
+ font-weight: 400;
+ color: #7D8092;
+ margin-bottom: 3px;
+}
+.ProfileItem-GeneratedAmountValue{
+ font-size: 10px;
+ font-weight: 700;
+ color: #34363D;
+ margin-bottom: 2px;
+}
+.ProfileItem-GeneratedText{
+ font-size: 8px;
+ font-weight: 400;
+ color: #7D8092;
+}
