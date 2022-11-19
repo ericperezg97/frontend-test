@@ -1,0 +1,61 @@
+.GraphCard {
+ width: 640px;
+ padding: 25px;
+ box-shadow: 0px 6px 8px -6px rgba(82, 93, 191, 0.12), 0px 8px 16px -6px rgba(82, 93, 191, 0.08);
+ border-radius: 8px;
+ background-color: white;
+}
+.GraphCard-Top{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 30px;
+}
+.GraphCard-Text{
+ font-size: 9px;
+ font-weight: 400;
+ color: #434343;
+ margin-bottom: 8px;
+}
+.GraphCard-EarningsContainer{
+ display: flex;
+ align-items: center;
+}
+.GraphCard-Earnings{
+ font-size: 18px;
+ font-weight: 700;
+ color: #34363D;
+ margin-right: 3px;
+}
+.GraphCard-Currency{
+ font-size: 14px;
+ font-weight: 500;
+ color: #7D8092;
+ margin-right: 8px;
+}
+.GraphCard-TopRight{
+ display: flex;
+ align-items: center;
+ padding: 5px 10px;
+ background-color: #F4F2FE;
+ border-radius: 4px;
+}
+.GraphCard-TimeOption{
+ font-size: 9px;
+ font-weight: 600;
+ color: #7D7D7D;
+ padding: 4px 8px;
+ cursor: pointer;
+}
+.GraphCard-TimeOption_selected{
+ padding: 4px 8px;
+ background-color: #712BFC;
+ color: white;
+ border-radius: 4px;
+}
+.GraphCard-Bottom{
+ height: 200px;
+ width: 100%;
+}
+
+

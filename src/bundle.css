@@ -3,3 +3,8 @@
 @import './components/SideBar/SideBar.css';
 @import './components/Button/Button.css';
 @import './components/Icon/Icon.css';
+@import './pages/HomePage/HomePage.css';
+@import './components/TextInput/TextInput.css';
+@import './components/InfoSection/InfoSection.css';
+@import './components/Card/GraphCard/GraphCard.css';
+@import './components/Card/InfoCard/InfoCard.css'

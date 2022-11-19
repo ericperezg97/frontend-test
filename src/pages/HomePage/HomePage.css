@@ -1,0 +1,48 @@
+.HomePage{
+ width: 100%;
+ background-color: #F2F8FE;
+ padding: 25px;
+}
+.HomePage-Top{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 35px;
+}
+.HomePage-Welcome{
+ font-size: 42px;
+ font-weight: 700;
+ color: #375EF8;
+}
+.HomePage-UserName{
+ font-size: 27px;
+ font-weight: 700;
+ color: #375EF8;
+}
+.HomePage-TopLeft{
+ margin-right: 30px;
+}
+.HomePage-TopRight{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.HomePage-Invite{
+ display: flex;
+ align-items: center;
+ margin-right: 5px;
+}
+.HomePage-InviteText{
+ font-size: 14px;
+ font-weight: 600;
+ color: #375EF8;
+ margin-right: 5px;
+}
+.HomePage-InviteIcon{
+ height: 15px;
+ width: 15px;
+ cursor: pointer;
+}
+.HomePage-Bottom{
+ display: flex;
+}

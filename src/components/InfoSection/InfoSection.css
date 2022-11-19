@@ -1,0 +1,9 @@
+.InfoSection {
+ display: flex;
+}
+.InfoSection-Left{
+ margin-right: 30px;
+}
+.InfoSection-Card{
+ margin-bottom: 30px;
+}
