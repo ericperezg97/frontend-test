@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router'
 import Header from '../Header'
 import SideBar from '../SideBar'
+
 const Layout = () => {
  return (
   <div className='Layout'>

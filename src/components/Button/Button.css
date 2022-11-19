@@ -1,4 +1,7 @@
 .Button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
  padding: 8px 16px;
  background-color: #375EF8;
  font-size: 14px;
@@ -6,7 +9,23 @@
  color: white;
  border-radius: 4px;
  cursor: pointer;
+ border: 1px solid #375EF8;
+}
+.Button_inverted{
+ background-color: white;
+ font-size: 14px;
+ font-weight: 700;
+ color: #712BFC;
+ border-radius: 4px;
+ cursor: pointer;
+ border: 1px solid #712BFC;
 }
 .Button:hover{
- background-color: #2450ff;
+ background-color: #1a46f7;
+}
+
+.Button_inverted:hover{
+ background-color: #712BFC;
+ color: white;
+ border: 1px solid #712BFC;
 }

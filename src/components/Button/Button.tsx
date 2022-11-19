@@ -1,10 +1,11 @@
 interface Props {
+ inverted?: any
  children?: string
  className?: string
 }
-const Button = ({ children, className:externalClassName=""}:Props) => {
+const Button = ({ children, inverted, className:externalClassName=""}:Props) => {
  return (
-  <div className={`Button ${externalClassName}`}>
+  <div className={`Button ${inverted ? "Button_inverted" :""} ${externalClassName}`}>
    {children}
   </div>
  )

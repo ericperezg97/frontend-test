@@ -7,4 +7,6 @@
 @import './components/TextInput/TextInput.css';
 @import './components/InfoSection/InfoSection.css';
 @import './components/Card/GraphCard/GraphCard.css';
-@import './components/Card/InfoCard/InfoCard.css'
+@import './components/Card/InfoCard/InfoCard.css';
+@import './components/Card/ProfileCard/ProfileCard.css';
+@import './components/ProfileItem/ProfileItem.css'
